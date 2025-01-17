@@ -2,7 +2,6 @@ import {
     WaveGroup
 } from './wavegroup.js'
 
-
 class App {
     constructor() {
         this.canvas = document.createElement('canvas');
@@ -31,9 +30,7 @@ class App {
     animate(t) {
    
         this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);
-
         this.waveGroup.draw(this.ctx)
-
         requestAnimationFrame(this.animate.bind(this));
     }
 
