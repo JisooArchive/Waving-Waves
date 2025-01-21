@@ -12,6 +12,4 @@ export class Point {
         this.cur += this.speed;
         this.y = this.fixedY + (Math.sin(this.cur) * this.max)
     }
-
-
 }
