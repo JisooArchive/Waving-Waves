@@ -25,7 +25,7 @@ export class WaveGroup {
         for (let i = 0; i < this.totalWaves; i++) {
             const wave = this.waves[i];
             wave.resize(stageWidth, stageHeight);
-    
+
         }
     }
 
@@ -33,7 +33,6 @@ export class WaveGroup {
         for (let i = 0; i < this.totalWaves; i++) {
             const wave = this.waves[i];
             wave.draw(ctx);
-    
     }
     }  
 }
