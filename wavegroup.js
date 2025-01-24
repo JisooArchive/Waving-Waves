@@ -15,7 +15,6 @@ export class WaveGroup {
                 i,
                 this.totalPoints,
                 this.color[i],
-            
             );
             this.waves[i] = wave;
         }
@@ -25,7 +24,6 @@ export class WaveGroup {
         for (let i = 0; i < this.totalWaves; i++) {
             const wave = this.waves[i];
             wave.resize(stageWidth, stageHeight);
-
         }
     }
 
