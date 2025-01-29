@@ -57,7 +57,6 @@ export class Wave {
 
             prevX = this.points[i].x;
             prevY = this.points[i].y;
-
         }
 
         ctx.lineTo(prevX, prevY);
