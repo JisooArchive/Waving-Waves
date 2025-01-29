@@ -33,7 +33,6 @@ class App {
         this.waveGroup.draw(this.ctx)
         requestAnimationFrame(this.animate.bind(this));
     }
-
 }
 
 window.onload = () => {
