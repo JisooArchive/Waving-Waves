@@ -8,7 +8,7 @@ export class Wave {
         this.totalPoints = totalPoints;
         this.color = color;
         this.points = []
-    }
+    } 
 
     resize(stageWidth, stageHeight) {
         this.stageWidth = stageWidth;
